@@ -115,21 +115,7 @@ export default function App() {
             </div>
             
             <div className="flex items-center gap-4">
-              <button
-                onClick={() => setAppState(AppState.SUBMISSION_PREVIEW)}
-                className="flex items-center gap-2 px-4 py-2 text-sm font-medium bg-emerald-900/30 text-emerald-400 border border-emerald-500/20 rounded-lg hover:bg-emerald-900/50 transition-colors"
-              >
-                <Trophy className="w-4 h-4" />
-                Nexora Hacks 2026
-              </button>
-              <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 text-slate-400 hover:text-white transition-colors"
-              >
-                <Github className="w-5 h-5" />
-              </a>
+              
             </div>
           </div>
         </div>
@@ -487,7 +473,7 @@ export default function App() {
             </div>
             
             <div className="text-xs font-medium text-slate-600 uppercase tracking-widest flex flex-wrap justify-center gap-6">
-              <span>Built for Nexora Hacks 2026</span>
+              
               <span>•</span>
               <a href="#" className="hover:text-slate-400 transition-colors">
                 Open Source
