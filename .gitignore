@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+node_modules
+.env
+dist
+.next
+.DS_Store
+coverage
+*.log
